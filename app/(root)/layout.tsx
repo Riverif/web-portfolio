@@ -8,7 +8,6 @@ export default function MainLayout({
 }) {
   return (
     <div>
-      <Socials />
       <NavSide />
       {children}
     </div>

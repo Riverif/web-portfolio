@@ -1,11 +1,19 @@
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-export const Socials = () => {
+export const Socials = ({ isVertical }: { isVertical?: boolean }) => {
   return (
-    <div className="absolute left-[100%] top-[100%] flex translate-x-[-350px] translate-y-[-80px] items-center gap-x-8">
+    <div
+      className={cn(
+        "fixed left-[100%] top-[100%]",
+        isVertical
+          ? "translate-x-[-100px] translate-y-[-250px] space-y-6"
+          : "flex translate-x-[-350px] translate-y-[-80px] items-center gap-x-8",
+      )}
+    >
       <div className="flex h-5 w-5 items-center justify-center rounded-full transition-all hover:shadow-[0px_0px_20px_12px_rgba(18,230,200,0.6)]">
         <Link href="mailto:rifkialfiann@gmail.com" className="">
           <MdEmail className="h-9 w-9" />

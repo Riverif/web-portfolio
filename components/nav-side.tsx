@@ -24,17 +24,17 @@ export const NavSide = () => {
       active: pathname.startsWith("/aboutme"),
     },
     {
-      href: "/project",
+      href: "/projects",
       label: "Projects",
       icon: <Brain className="h-8 w-8" />,
-      active: pathname.startsWith("/aboutme"),
+      active: pathname.startsWith("/projects"),
     },
   ];
 
   return (
     <div className="group">
-      <div className="absolute top-[50%] -z-10 ml-12 h-16 w-16 translate-y-[-50%] animate-pulse rounded-full shadow-[0px_0px_30px_5px_rgba(18,230,200,0.5)] transition-all hover:py-8 group-hover:h-[200px] group-hover:animate-none"></div>
-      <div className="absolute top-[50%] ml-12 flex h-16 w-16 translate-y-[-50%] flex-col items-center justify-center gap-y-5 rounded-full bg-slate-600/20 transition-all hover:h-[200px] hover:py-8">
+      <div className="fixed top-[50%] z-10 ml-12 h-16 w-16 translate-y-[-50%] animate-pulse rounded-full shadow-[0px_0px_30px_5px_rgba(18,230,200,0.5)] transition-all hover:py-8 group-hover:h-[200px] group-hover:animate-none"></div>
+      <div className="fixed top-[50%] z-20 ml-12 flex h-16 w-16 translate-y-[-50%] flex-col items-center justify-center gap-y-5 rounded-full bg-slate-600/20 transition-all hover:h-[200px] hover:py-8">
         {routes.map((route) => (
           <div
             key={route.label}
