@@ -65,59 +65,6 @@ const AboutMe = () => {
             </ul>
           </div>
         </div>
-        {/* EXPERIENCES */}
-        <div className="flex gap-x-7">
-          <h2 className="animate-slide-in text-4xl text-teal-400">
-            Experiences
-          </h2>
-          <div className="animate-opacity-slide-in">
-            <div className="relative flex overflow-hidden pl-5">
-              <div className="absolute flex h-[100%] translate-y-[2px] flex-col items-center">
-                <div className="absolute h-5 w-5 rounded-full border-4 border-white" />
-                <div className="absolute h-full w-1 translate-y-5 bg-white" />
-              </div>
-              <div className="space-y-2 pl-5">
-                <h3 className="text-2xl font-bold">
-                  Project-Based Virtual Intern: Fullstack Developer BTPN Syariah
-                  x Rakamin Academy
-                </h3>
-                <div className="pb-10">
-                  I work as a full-stack developer, responsible for creating and
-                  maintaining web application. My role involves designing user
-                  interface, developing server-side project, managing databases,
-                  developed API with GO, writing clean architecture code.
-                </div>
-              </div>
-            </div>
-            <div className="relative flex translate-y-[-2px] overflow-hidden pl-5">
-              <div className="absolute flex h-[100%] translate-y-[2px] flex-col items-center">
-                <div className="absolute h-5 w-5 rounded-full border-4 border-white" />
-                <div className="absolute h-full w-1 translate-y-5 bg-white" />
-              </div>
-              <div className="space-y-2 pl-5">
-                <h3 className="text-2xl font-bold">
-                  Project Manager Internship at PT. Inovindo Digital Media
-                </h3>
-                <p>
-                  Working on a project to create a Prototypr Smarthome module
-                  using IoT. I am working on it,
-                </p>
-                <ul className="list-disc pl-6">
-                  <li>Developed a project timeline</li>
-                  <li>
-                    Organized job desk members according to their respective
-                    abilities
-                  </li>
-                  <li>Ensured efficient organization of job desks</li>
-                  <li>
-                    Managed the process including planning, implementation,
-                    supervision, and evaluation of the project
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
         {/* EDUCATIONS */}
         <div className="flex gap-x-7">
           <h2 className="animate-slide-in text-4xl text-teal-400">
@@ -175,6 +122,60 @@ const AboutMe = () => {
             </div> */}
           </div>
         </div>
+        {/* EXPERIENCES */}
+        <div className="flex gap-x-7">
+          <h2 className="animate-slide-in text-4xl text-teal-400">
+            Experiences
+          </h2>
+          <div className="animate-opacity-slide-in">
+            <div className="relative flex overflow-hidden pl-5">
+              <div className="absolute flex h-[100%] translate-y-[2px] flex-col items-center">
+                <div className="absolute h-5 w-5 rounded-full border-4 border-white" />
+                <div className="absolute h-full w-1 translate-y-5 bg-white" />
+              </div>
+              <div className="space-y-2 pl-5">
+                <h3 className="text-2xl font-bold">
+                  Project-Based Virtual Intern: Fullstack Developer BTPN Syariah
+                  x Rakamin Academy
+                </h3>
+                <div className="pb-10">
+                  I work as a full-stack developer, responsible for creating and
+                  maintaining web application. My role involves designing user
+                  interface, developing server-side project, managing databases,
+                  developed API with GO, writing clean architecture code.
+                </div>
+              </div>
+            </div>
+            <div className="relative flex translate-y-[-2px] overflow-hidden pl-5">
+              <div className="absolute flex h-[100%] translate-y-[2px] flex-col items-center">
+                <div className="absolute h-5 w-5 rounded-full border-4 border-white" />
+                <div className="absolute h-full w-1 translate-y-5 bg-white" />
+              </div>
+              <div className="space-y-2 pl-5">
+                <h3 className="text-2xl font-bold">
+                  Project Manager Internship at PT. Inovindo Digital Media
+                </h3>
+                <p>
+                  Working on a project to create a Prototypr Smarthome module
+                  using IoT. I am working on it,
+                </p>
+                <ul className="list-disc pl-6">
+                  <li>Developed a project timeline</li>
+                  <li>
+                    Organized job desk members according to their respective
+                    abilities
+                  </li>
+                  <li>Ensured efficient organization of job desks</li>
+                  <li>
+                    Managed the process including planning, implementation,
+                    supervision, and evaluation of the project
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* ORGANIZATIONS */}
         <div className="flex gap-x-7">
           <h2 className="animate-slide-in text-4xl text-teal-400">
