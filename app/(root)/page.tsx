@@ -13,10 +13,12 @@ export default function Home() {
           <p className="animate-slide-up">Rifki Alfian Nahar Portfolio</p>
         </div>
       </div>
-      <Socials />
-      <main className="ml-64 mr-48 flex min-h-screen items-center justify-between">
-        <div className="space-y-5">
-          <h1 className="space-y-2 text-5xl">
+      <div>
+        <Socials />
+      </div>
+      <main className="grid grid-cols-1 items-center gap-y-4 pt-20 md:ml-64 md:mr-48 md:min-h-screen md:grid-cols-2 md:pt-0">
+        <div className="space-y-2 text-center md:space-y-5 md:text-left">
+          <h1 className="text-xl md:space-y-2 md:text-5xl">
             <p>Hello,</p>
             <p>
               {`I'm `}
@@ -39,11 +41,17 @@ export default function Home() {
               />
             </p>
           </h1>
-          <p className="text-2xl font-light">
+          <p className="text-sm font-light text-slate-300 md:text-2xl">
             5+ Projects, 2+ Live Web Projects
           </p>
         </div>
-        <Image src={profile} alt="profile" />
+        <div className="order-first flex items-center justify-center md:order-none">
+          <Image
+            src={profile}
+            alt="profile"
+            className="h-52 w-52 md:ml-72 md:h-[350px] md:w-[350px]"
+          />
+        </div>
       </main>
     </>
   );

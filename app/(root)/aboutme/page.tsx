@@ -6,15 +6,17 @@ import React from "react";
 const AboutMe = () => {
   return (
     <>
-      <Socials isVertical />
-      <div className="ml-64 mr-64 min-h-screen space-y-10 pb-20 pt-12">
+      <div className="hidden md:block">
+        <Socials isVertical />
+      </div>
+      <div className="min-h-screen space-y-10 px-5 pb-32 pt-12 md:ml-64 md:mr-64 md:px-0 md:pb-20">
         {/* ABOUT */}
-        <div className="flex gap-x-7">
+        <div className="flex flex-col gap-x-7 gap-y-2 md:flex-row">
           <h2 className="animate-slide-in text-4xl text-teal-400">About</h2>
           <p className="animate-opacity-slide-in">{`A Full-Stack developer who started learning programming from 2020. fresh graduate of electrical engineering telecommunications s1 from the University of Education Indonesia. has the ability to design back-end using unit testing, clean architecture, and CI / CD using GitHub actions. Designing code with microservices architecture, MVC and also using APIs. Expert in using NextJs and also Next Auth. Expert in debugging and problem solving any code problems.`}</p>
         </div>
         {/* SKILLS */}
-        <div className="flex gap-x-7">
+        <div className="flex flex-col gap-x-7 gap-y-2 md:flex-row">
           <h2 className="animate-slide-in text-4xl text-teal-400">Skills</h2>
           <div className="animate-opacity-slide-in">
             <h3 className="text-2xl font-bold">Certifications</h3>
@@ -66,7 +68,7 @@ const AboutMe = () => {
           </div>
         </div>
         {/* EDUCATIONS */}
-        <div className="flex gap-x-7">
+        <div className="flex flex-col gap-x-7 gap-y-2 md:flex-row">
           <h2 className="animate-slide-in text-4xl text-teal-400">
             Educations
           </h2>
@@ -123,7 +125,7 @@ const AboutMe = () => {
           </div>
         </div>
         {/* EXPERIENCES */}
-        <div className="flex gap-x-7">
+        <div className="flex flex-col gap-x-7 gap-y-2 md:flex-row">
           <h2 className="animate-slide-in text-4xl text-teal-400">
             Experiences
           </h2>
@@ -177,7 +179,7 @@ const AboutMe = () => {
         </div>
 
         {/* ORGANIZATIONS */}
-        <div className="flex gap-x-7">
+        <div className="flex flex-col gap-x-7 gap-y-2 md:flex-row">
           <h2 className="animate-slide-in text-4xl text-teal-400">
             Organizations
           </h2>

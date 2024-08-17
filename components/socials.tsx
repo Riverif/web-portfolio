@@ -8,10 +8,10 @@ export const Socials = ({ isVertical }: { isVertical?: boolean }) => {
   return (
     <div
       className={cn(
-        "fixed left-[100%] top-[100%]",
+        "fixed left-[50%] top-[80%] md:left-[100%] md:top-[100%]",
         isVertical
           ? "translate-x-[-100px] translate-y-[-250px] space-y-6"
-          : "flex translate-x-[-350px] translate-y-[-80px] items-center gap-x-8",
+          : "flex translate-x-[-50%] items-center gap-x-8 md:translate-x-[-350px] md:translate-y-[-80px]",
       )}
     >
       <div className="flex h-5 w-5 items-center justify-center rounded-full transition-all hover:shadow-[0px_0px_20px_12px_rgba(18,230,200,0.6)]">
