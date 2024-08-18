@@ -2,6 +2,7 @@ import { Socials } from "@/components/socials";
 import arsys from "@/public/pict-projects/arsys.png";
 import ivtec from "@/public/pict-projects/ivtec.png";
 import backend from "@/public/pict-projects/backend.png";
+import lms from "@/public/pict-projects/lms.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,7 +11,7 @@ const ProjectsPage = () => {
     {
       picture: arsys,
       title: "Web Administration Arsys",
-      desc: "Tools: NextAuth v5, Prisma, NoSQL Database from Neon.tech, Zod Resolver, TypeScript, shadcn/ui, tailwind",
+      desc: "Tools: NextAuth v5, Prisma, PostgreSQL Database from Neon.tech, Zod Resolver, TypeScript, shadcn/ui, tailwind",
       href: "https://arsys.rifkialfiann.my.id/",
     },
     {
@@ -18,6 +19,12 @@ const ProjectsPage = () => {
       title: "IEEE International Student Conference 3.0",
       desc: "Tools: HTML, Tailwind CSS, JS",
       href: "https://fptk.upi.edu/ieee-conference/index.html",
+    },
+    {
+      picture: lms,
+      title: "Learning management system",
+      desc: "Tools: NextJs, Tailwind CSS, PostgreSQL Database from Neon.tech, Prisma",
+      href: "https://lms.rifkialfiann.my.id/",
     },
   ];
   // const htmlTailwindProjects = [
